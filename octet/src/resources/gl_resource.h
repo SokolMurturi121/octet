@@ -224,7 +224,7 @@ namespace octet { namespace resources {
       assert(offset + size <= this->get_size());
 
       memcpy((void*)((char*)lock() + offset), ptr, size);
-      unlock();
+     unlock();
     }
 
     /// copy data from another gl resource.
@@ -234,4 +234,6 @@ namespace octet { namespace resources {
       rhs->unlock();
     }
   };
-} }
+} 
+
+}

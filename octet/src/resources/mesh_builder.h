@@ -198,6 +198,10 @@ namespace octet { namespace resources {
     void scale(float x, float y, float z) {
       matrix.scale(x, y, z);
     }
+	void deleteVertices()
+	{
+		vertices.reset();
+	}
 
     void translate(float x, float y, float z) {
       matrix.translate(x, y, z);
