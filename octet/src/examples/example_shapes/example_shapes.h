@@ -14,6 +14,7 @@ namespace octet {
     example_shapes(int argc, char **argv) : app(argc, argv) {
     }
 
+
     ~example_shapes() {
     }
 
